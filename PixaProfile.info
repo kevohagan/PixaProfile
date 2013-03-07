@@ -1,0 +1,124 @@
+name = PixaProfile
+description = Basic install profile for PixaDelic
+core = 7.x
+
+
+
+
+
+; Panopoply Defaults
+
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
+; Panopoly Recommended
+dependencies[] = navbar
+dependencies[] = devel
+dependencies[] = uuid
+
+
+
+
+
+
+
+
+; Custom Pixa
+
+
+dependencies[] = context
+dependencies[] = features
+dependencies[] = strongarm 
+dependencies[] = rules
+dependencies[] = views
+dependencies[] = webform
+dependencies[] = field_collection
+dependencies[] = field_collection_table
+dependencies[] = entity_view_mode
+
+dependencies[] = photobox
+dependencies[] = nivo_slider
+dependencies[] = views_slideshow
+dependencies[] = views_nivo_slider
+dependencies[] = field_slideshow
+dependencies[] = tagadelic
+dependencies[] = colorbox
+dependencies[] = menu_block
+dependencies[] = context_menu_block
+dependencies[] = fontyourface
+dependencies[] = auto_entitylabel
+dependencies[] = wysiwyg
+dependencies[] = superfish
+dependencies[] = stringoverrides
+dependencies[] = anonymous_login
+dependencies[] = panels
+
+
+dependencies[] = workbench
+dependencies[] = module_filter
+dependencies[] = admin_menu
+dependencies[] = calendar
+dependencies[] = date
+dependencies[] = devel
+dependencies[] = feeds
+dependencies[] = job_scheduler
+dependencies[] = advagg
+dependencies[] = jquery_plugin
+dependencies[] = jquery_update
+dependencies[] = globalredirect
+dependencies[] = pathauto
+dependencies[] = logintoboggan
+dependencies[] = login_destination
+dependencies[] = email_registration
+dependencies[] = google_analytics
+dependencies[] = xmlsitemap
+dependencies[] = metatag
+dependencies[] = metatags_quick
+dependencies[] = site_verify
+
+
+dependencies[] = page_title
+dependencies[] = title
+dependencies[] = email
+dependencies[] = link
+dependencies[] = field_group
+dependencies[] = references
+dependencies[] = entityreference
+dependencies[] = media"
+dependencies[] = media_youtube  
+dependencies[] = openlayers
+dependencies[] = openlayers_proximity 
+dependencies[] = geophp
+dependencies[] = geofield
+dependencies[] = geocoder
+dependencies[] = addressfield
+
+dependencies[] = service_links
+dependencies[] = twitter
+dependencies[] = share
+dependencies[] = twitter_bootstrap_ui
+dependencies[] = block_class
+dependencies[] = fitvids
+dependencies[] = masonry
+
+
+;i18n
+
+dependencies[] = i18n
+
+;Security
+
+dependencies[] = security_review
+dependencies[] = oauth
+dependencies[] = captcha
