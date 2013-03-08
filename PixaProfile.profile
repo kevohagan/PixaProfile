@@ -9,11 +9,11 @@
 * Implements hook_install()
 */
 
-function PixaProfile_install() {
-    //Enable the Pixatheme
-    theme_enable(array('pixatheme'));
-    variable_set('theme_default', 'pixatheme');
-}
+// function PixaProfile_install() {
+//     //Enable the Pixatheme
+//     theme_enable(array('pixatheme'));
+//     variable_set('theme_default', 'pixatheme');
+// }
 
 /**
 * Implements hook_form_FORM_ID_alter().
