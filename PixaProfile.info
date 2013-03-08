@@ -54,12 +54,12 @@ dependencies[] = views_nivo_slider
 dependencies[] = field_slideshow
 dependencies[] = tagadelic
 dependencies[] = colorbox
-dependencies[] = menu_block
-dependencies[] = context_menu_block
+;dependencies[] = menu_block
+;dependencies[] = context_menu_block
 dependencies[] = fontyourface
 dependencies[] = auto_entitylabel
 dependencies[] = wysiwyg
-dependencies[] = superfish
+;dependencies[] = superfish
 dependencies[] = stringoverrides
 dependencies[] = anonymous_login
 dependencies[] = panels
@@ -67,7 +67,7 @@ dependencies[] = panels
 
 dependencies[] = workbench
 dependencies[] = module_filter
-dependencies[] = admin_menu
+;dependencies[] = admin_menu
 dependencies[] = calendar
 dependencies[] = date
 dependencies[] = devel
@@ -89,7 +89,7 @@ dependencies[] = site_verify
 
 
 dependencies[] = page_title
-dependencies[] = title
+;dependencies[] = title
 dependencies[] = email
 dependencies[] = link
 dependencies[] = field_group
@@ -112,6 +112,7 @@ dependencies[] = block_class
 
 dependencies[] = fitvids
 dependencies[] = masonry
+dependencies[] = libraries
 
 
 ;i18n
