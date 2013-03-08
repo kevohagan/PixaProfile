@@ -106,19 +106,20 @@ dependencies[] = addressfield
 
 dependencies[] = service_links
 dependencies[] = twitter
-dependencies[] = share
+;dependencies[] = share
 dependencies[] = twitter_bootstrap_ui
 dependencies[] = block_class
+
 dependencies[] = fitvids
 dependencies[] = masonry
 
 
 ;i18n
 
-dependencies[] = i18n
+;dependencies[] = i18n
 
 ;Security
 
-dependencies[] = security_review
-dependencies[] = oauth
+;dependencies[] = security_review
+;dependencies[] = oauth
 dependencies[] = captcha
